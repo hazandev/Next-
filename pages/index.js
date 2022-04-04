@@ -1,10 +1,19 @@
-
-import styles from '../styles/Home.module.css'
+import Head from "next/head"
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <h1>hello</h1>
+    <div className="home">
+      <div className="container">
+        <div className="wrapper">
+          <div className="header">
+                <Head>
+                  <title>learn next</title>
+                  <meta name="keyword" content='web development, programming'/>
+                </Head>
+                <h1>Home</h1>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
