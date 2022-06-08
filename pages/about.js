@@ -1,13 +1,13 @@
-import Head from "next/head"
+import PageHeader from "../component/util/HeaderPage";
 
 const about = () => {
   return (
-      <div className="about">
-          <Head>
-              <title>about</title>
-          </Head>
-        <div>about</div>
-      </div>
+    <div className="about">
+    <PageHeader title={"יוסי אשרוב | עורך דין - אודות"}/>
+    <div className="wrapper">
+        <h6>About Page</h6>
+    </div>
+</div>
   )
 };
 

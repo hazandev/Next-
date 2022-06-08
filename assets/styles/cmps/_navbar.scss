@@ -1,0 +1,26 @@
+.navbar{
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-family: 'Assistant', sans-serif;
+        .left{
+            display: flex;
+            font-size: 1.4rem;
+        }
+        .right{
+            nav{
+                .nav_link_item{
+                    margin-inline-start: 0.8rem;
+                    padding-block-end: 0.2rem;
+                }
+                .active{
+
+                }
+            }
+        }
+    }
+    .active{
+        border-bottom: 2px solid #000;   
+    }
+}
